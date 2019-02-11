@@ -1,5 +1,6 @@
 public class MyClass1 {
 
+private DayOfWeek dayOfWeek;
 
     public enum DayOfWeek {
         MONDAY,
@@ -11,7 +12,8 @@ public class MyClass1 {
         SUNDSAY
     }
 
+public  void GetDayOfWeek(DayOfWeek day){
 
-
-
+        System.out.println(day);
+}
 }
